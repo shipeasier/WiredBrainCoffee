@@ -7,7 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WiredBrainCoffee.ConsoleApp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.Storage", "WiredBrainCoffee.Storage\WiredBrainCoffee.Storage.csproj", "{66173132-E699-419B-A31C-78C1473E9085}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.Simulators", "WiredBrainCoffee.Simulators\WiredBrainCoffee.Simulators.csproj", "{727FD007-AE69-4F0B-B570-0054D450C70A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WiredBrainCoffee.Simulators", "WiredBrainCoffee.Simulators\WiredBrainCoffee.Simulators.csproj", "{727FD007-AE69-4F0B-B570-0054D450C70A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiredBrainCoffee.UI.Wpf", "WiredBrainCoffee.UI.Wpf\WiredBrainCoffee.UI.Wpf.csproj", "{0D7D077F-1894-4C19-B7E4-E10A0F9B6028}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCore", "NetCore", "{6F097684-EA5E-471F-8475-4031727D8C7A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetFramework", "NetFramework", "{590E627E-06DF-436D-8ABE-C66912801AA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetStandard", "NetStandard", "{08F61749-E945-421E-812A-08D65599EDB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,9 +35,19 @@ Global
 		{727FD007-AE69-4F0B-B570-0054D450C70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{727FD007-AE69-4F0B-B570-0054D450C70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{727FD007-AE69-4F0B-B570-0054D450C70A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7D077F-1894-4C19-B7E4-E10A0F9B6028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7D077F-1894-4C19-B7E4-E10A0F9B6028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7D077F-1894-4C19-B7E4-E10A0F9B6028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7D077F-1894-4C19-B7E4-E10A0F9B6028}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E323D6C-77C6-454C-8F34-4631693AAB7F} = {6F097684-EA5E-471F-8475-4031727D8C7A}
+		{66173132-E699-419B-A31C-78C1473E9085} = {08F61749-E945-421E-812A-08D65599EDB1}
+		{727FD007-AE69-4F0B-B570-0054D450C70A} = {08F61749-E945-421E-812A-08D65599EDB1}
+		{0D7D077F-1894-4C19-B7E4-E10A0F9B6028} = {590E627E-06DF-436D-8ABE-C66912801AA0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4911D546-68A0-43EF-82C7-C4A00F485AC6}
